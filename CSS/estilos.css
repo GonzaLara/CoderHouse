@@ -1,4 +1,4 @@
-/* universal */
+/* Universal */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fuzzy+Bubbles&display=swap');
 
 * {
@@ -21,19 +21,23 @@ body {
     border: 1px solid black;
 }
 
+h1 {
+    background-color: orange;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 36px;
+}
+
+p {
+    line-height: 40px;
+    font-size: 20px;
+}
+/* Fin Universal */
+
+
+/* nav */
 .bordecito:hover {
     opacity: 0.7;
-}
-
-.pie {
-    border-top: 1px solid black;
-}
-
-/* header */
-.buscador {
-    width: 200px;
-    padding: 10px;
-    border-radius: 30px;
 }
 
 /* footer */
@@ -48,19 +52,7 @@ body {
 
 
 /* INICIO INDEX.HTML*/
-h1 {
-    background-color: orange;
-    text-transform: uppercase;
-    padding-left: 20px;
-    font-size: 36px;
-}
-
-p {
-    line-height: 40px;
-    font-size: 20px;
-}
-
-/* boton */
+/* boton "MAS INFO" */
 .boton-index {
     background-color: rgb(255, 255, 255);
     width: 150px;
@@ -76,7 +68,7 @@ p {
     font-weight: bolder;
 }
 
-/* cajas */
+/* Cajas */
 .cont-global {
     background-color: rgba(255, 255, 255, 0.479);
     overflow: hidden;
@@ -125,6 +117,11 @@ p {
     -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.55);
 }
 
+.caja2-index img {
+    height:300px;
+    margin-bottom: 20px;
+}
+
 .caja3-index {
     width: fit-content;
 }
@@ -140,24 +137,6 @@ p {
     -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.55);
 }
 
-.c-item {
-    height: 300px;
-}
-
-.c-img {
-    height: 100%;
-    object-fit: scale-down;
-}
-
-.caja2-index img {
-    height:300px;
-    margin-bottom: 20px;
-}
-
-.conjunto {
-    display: inline;
-}
-
 .caja-index h2, .caja2-index h2, .caja3-index h2, .caja4-index h2{
     font-size: 31px;
     padding-top: 8px;
@@ -168,12 +147,23 @@ p {
     text-align: center;
 }
 
+/* carousel */
+.c-item {
+    height: 300px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: scale-down;
+}
+
+/* Video "INTRO" */
 iframe {
     padding: 20px;
 }
 
 
-/* linea separadora naranja */
+/* Linea Separadora Naranja */
 .caja-principal, .caja-final {
     border: 3px solid black;
     margin: 10px 0;
@@ -227,8 +217,6 @@ iframe {
 /*  */
 /*  */
 /* INICIO RECOMENDACIONES.HTML */
-
-
 .contenedor-recomendaciones p {
     padding: 10px;
 }
@@ -262,9 +250,6 @@ iframe {
 
 .caja-recomendaciones h3 {
     color: #CF30A4;
-}
-
-.caja-recomendaciones h3 {
     padding-top: 2em;
 }
 
@@ -335,18 +320,12 @@ input {
     padding: 4px;
 }
 
-#boton-comunidad {
-    margin: 10px 0;
-    width: 20%;
-    border: 2px solid green;
-    border-radius: 15px;
-    text-transform: uppercase;
-    background-color: rgb(63, 214, 63);
-    color: rgb(0, 83, 0);
-    cursor: pointer;
-}
 
-/* iconos */
+/* FIN COMUNIDAD.HTML */
+/*  */
+/*  */
+/*  */
+/* Iconos */
 .icono {
     font-size: 80px;
     margin: 30px;
@@ -393,7 +372,7 @@ input {
     color: black;
     padding-top: 6px;
 }
-/* FIN COMUNIDAD.HTML */
+
 
 
 /* RESPONSIVE*/
@@ -451,17 +430,9 @@ input {
         overflow: hidden;
         width: 90%;
     }
-
-    header nav {
-        display: none;
-    }
 }
 
 @media (max-width: 700px ) {
-    header nav {
-        display: none
-    }
-
     iframe {
         width: 300px;
         height: auto;
@@ -499,21 +470,9 @@ input {
         font-size: 60px;
     }
 
-
-    main .caja2-index img {
-        height: 130px;
-    }
-
-    main .caja4-index img {
-        width: 140px;
-    }
-
-    iframe {
-        width: 200px;
-    }
-
-    main .caja-index h2 , main .caja2-index h2, main .caja3-index h2, main .caja4-index h2{
-        font-size: 22px;
+    main .caja-index, main .caja2-index, main .caja3-index, main .caja4-index {
+        margin: 10px;
+        box-shadow: none;
     }
 
     main .caja-index p, main .caja2-index p{
@@ -521,13 +480,20 @@ input {
         padding: 0;
     }
 
-    main .caja-index, main .caja2-index, main .caja3-index, main .caja4-index {
-        margin: 10px;
-        box-shadow: none;
+    main .caja-index h2 , main .caja2-index h2, main .caja3-index h2, main .caja4-index h2{
+        font-size: 22px;
+    }
+
+    main .caja2-index img {
+        height: 130px;
     }
 
     main .caja3-index {
         width: fit-content;
+    }
+
+    main .caja4-index img {
+        width: 140px;
     }
 
     main .flecha-der, main .flecha-izq {
