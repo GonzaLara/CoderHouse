@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagenes/dona.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>SiempreSimpson</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg border-bottom border-dark" data-bs-theme="light"
+            style="background-color: rgb(255, 255, 139)">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Imagenes/logo.png" alt="logo simpsons">
+                </a>
+                <!-- boton para nav en celulares -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navbar -->
+                <div class="collapse navbar-collapse pt-3 pb-3 flex-md-row" id="main-nav">
+                    <ul class="navbar-nav justify-content-center flex-grow-1">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link fs-5">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Paginas/temporadas.html" class="nav-link fs-5">Temporadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Paginas/recomendaciones.html" class="nav-link fs-5">Recomendaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Paginas/comunidad.html" class="nav-link fs-5">Comunidad</a>
+                        </li>
+                    </ul>
+                    <!-- ingreso/registro -->
+                    <div class="float-end pt-2 d-md-grid">
+                        <a href="login" class="bordecito text-dark text-decoration-none px-3 py-2 rounded-4 mb-md-3"
+                            style="background-color: orange;">Ingresar</a>
+                        <a href="signup" class="bordecito text-dark text-decoration-none px-3 py-2 rounded-4"
+                            style="background-color: orange;">Registrarse</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="caja-principal">Inicio</h1>
+
+    <main>
+        <section class="contenedor-grid-index cont-global">
+            <div class="caja-index">
+                <h2>Los Simpson</h2>
+                <p>"Los Simpson" es una exitosa serie de animación estadounidense que se ha convertido en un fenómeno
+                    cultural a nivel mundial. Fue creada por Matt Groening y se estrenó por primera vez el 17 de
+                    diciembre de 1989. La serie sigue las aventuras y desventuras de la familia Simpson, compuesta por
+                    Homero,
+                    Marge, Bart, Lisa y Maggie, junto con una amplia variedad de personajes secundarios que habitan en
+                    la
+                    ficticia ciudad de Springfield.</p>
+                <p>Desde su debut ,han sido emitidos 750 episodios por television a lo largo de 34 temporadas y
+                    contando, siendo la serie animada de comedia mas longeva en los Estados Unidos. </p>
+                <p>La serie recibio aclamacion universal en sus primeras temporadas en los años 1990s, siendo
+                    considerada esta su "epoca dorada". ha sido ampliamente elogiada por su humor inteligente, su
+                    capacidad para
+                    abordar temas complejos y su capacidad para conectarse con una amplia audiencia. Esta claro que la
+                    serie ha
+                    dejado una huella duradera en la cultura popular y ha seguido siendo un referente en la televisión
+                    durante décadas.</p>
+                <button class="boton-index">MAS INFO</button>
+            </div>
+
+            <div class="caja2-index">
+                <h2>La pagina</h2>
+                <p>En esta pagina podras encontrar informacion sobre la serie asi como tambien poder ver online las
+                    temporadas clasicas. Por ahora estan disponibles todos los capitulos de la temporada 1 hasta la
+                    temporada 12 en español(Latinoamericano).</p>
+                </p>
+                <p>Con el tiempo y apoyo que reciba la pagina se agregaran las temporadas faltantes hasta que en un
+                    futuro la
+                    serie pueda ser vista de inicio a fin. Tambien se planea agregar diversos idiomas y subtitulos para
+                    que pueda ser disfrutada por una amplia audiencia.</p>
+                <div>
+                    <img src="Imagenes/familia.png" alt="familia simpson">
+                </div>
+            </div>
+
+            <div class="caja3-index">
+                <h2>Intro</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yk_tA9_fqoE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+
+            <div class="caja4-index">
+                <h2>Imagenes</h2>
+                <div id="miCarousel" class="carousel slide" data-bs-theme="dark">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active c-item">
+                            <img src="Imagenes/imagenes_varias1.png" class="d-block w-100 c-img" alt="...">
+                        </div>
+                        <div class="carousel-item c-item">
+                            <img src="Imagenes/imagenes_varias1.png" class="d-block w-100 c-img" alt="...">
+                        </div>
+                        <div class="carousel-item c-item">
+                            <img src="Imagenes/imagenes_varias1.png" class="d-block w-100 c-img" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#miCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#miCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- <div class="conjunto">
+                    <a href=""><i class="fa-solid fa-square-caret-left flecha-izq"></i></a>
+                    <img src="Imagenes/imagenes_varias1.png" alt="varias imagenes">
+                    <a href=""><i class="fa-solid fa-square-caret-right flecha-der"></i></a>
+                </div> -->
+
+            </div>
+        </section>
+    </main>
+
+    <div class="caja-final"><a href="Paginas/temporadas.html"><i class="fa-solid fa-circle-right derecha"></i></a>
+    </div>
+
+    <footer>
+        <div class="pie">
+            <p>&copy 2023 SiempreSimpson. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
