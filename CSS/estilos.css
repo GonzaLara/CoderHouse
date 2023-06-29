@@ -522,4 +522,32 @@ input {
         align-items: center;
     }
 }
+
+@media(max-width : 370px) {
+    main .caja-index, main .caja2-index, main .caja3-index, main .caja4-index {
+        max-width: 250px;
+    }
+
+    iframe {
+        width: 250px;
+    }
+
+    main .caja4-index {
+        height: fit-content;
+    }
+
+    .caja-recomendaciones {
+        width: 90%;
+        box-shadow: none;
+    }
+
+    .caja-recomendaciones img {
+        margin: auto;
+        display: block;
+    }
+
+    .formulario-comunidad {
+        width: 90%;
+    }
+}
 /* FIN RESPONSIVE*/
