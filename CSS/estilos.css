@@ -13,8 +13,9 @@
 body {
     background-image: url(../Imagenes/fondo.png);
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .caja-recomendaciones img, .caja-recomendaciones h2, .caja2-index img {
@@ -130,7 +131,7 @@ p {
     background-color: rgba(255, 255, 255, 0.801);
     text-align: center;
     margin: 30px;
-    width: 75%;
+    width: 70%;
     height: 380px;
     box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.55);
     -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.55);
@@ -154,7 +155,8 @@ p {
 
 .c-img {
     height: 100%;
-    object-fit: scale-down;
+    object-fit: cover;
+    padding: 0 20px;
 }
 
 /* Video "INTRO" */
@@ -376,6 +378,12 @@ input {
 
 
 /* RESPONSIVE*/
+@media (max-width : 1700px) {
+    .c-img {
+        object-fit: scale-down;
+    }
+}
+
 @media (min-width:1030px) and (max-width: 1300px){
     h1 {
         font-size: 31px;
@@ -408,11 +416,6 @@ input {
     iframe {
         width: 400px;
     }
-    
-    header nav{
-        display: none;
-    }
-
 }
 
 @media (min-width: 700px) and (max-width: 1029px) {
