@@ -58,7 +58,7 @@
     @include posicion-relativa;
     background-color: map-get($map: $colores, $key: "colorDos");
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 50px;
     @include sombraCajas;
     img {
         margin-bottom: $textoMd;

@@ -400,7 +400,7 @@ input {
   left: 5%;
   background-color: rgba(255, 255, 255, 0.801);
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 50px;
   box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.55);
   -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.55);
