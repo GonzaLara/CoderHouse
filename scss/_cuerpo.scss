@@ -1,0 +1,49 @@
+body {
+    background-image: url(../Imagenes/fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-weight: bold;
+}
+
+p {
+    font-size: $textoMd;
+    line-height: $textoXxl;
+}
+
+h1 {
+    padding-left: $textoMd;
+    text-transform: uppercase;
+    font-size: $textoMd;
+}
+
+.cont-global {
+    @include posicion-relativa;
+    background-color: map-get($map: $colores, $key: "colorUno");
+    overflow: hidden;
+    margin: 18px 0;
+}
+
+.caja-principal {
+    background-color: map-get($map: $colores, $key: "colorCuatro");
+    border: 3px solid black;
+    margin: $textoSm 0;
+}
+
+.caja-final {
+    @extend .caja-principal;
+    width: 100%;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.pie {
+    background-color: rgb(255, 255, 139);
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: $textoSm $textoSm;
+    clear: left;
+}

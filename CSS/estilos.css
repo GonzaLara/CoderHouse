@@ -144,8 +144,8 @@ p {
 }
 
 .caja-index p, .caja2-index p {
-    padding: 8px;
     text-align: center;
+    padding: 8px;
 }
 
 /* carousel */

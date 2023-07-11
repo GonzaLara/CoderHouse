@@ -1,0 +1,43 @@
+.contenedor-recomendaciones p {
+    padding: $textoSm;
+}
+
+.caja-recomendaciones {
+    @include posicion-relativa;
+    @include sombraCajas;
+    background-color: map-get($map: $colores, $key: "colorDos");
+    margin-bottom: 2em; 
+    padding: $textoMd;
+    
+    img {
+        float: left;
+        margin: $textoXl;
+        height: auto; 
+        border: $bordeSm;
+    }
+
+    h2 {
+        background-color: map-get($map: $colores, $key: "colorTres");
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: $textoMd;
+        padding: $textoSm;
+        font-weight: bold;
+        border: $bordeSm;
+    }
+
+    h3 {
+        color: #CF30A4;
+        padding-top: 2em;
+    }
+}
+
+.ver-mas {
+    text-align: center;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

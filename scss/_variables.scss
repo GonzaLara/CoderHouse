@@ -1,0 +1,73 @@
+// variables globales
+// colores
+$colores : (
+    "colorUno": rgba(255, 255, 255, 0.479),
+    "colorDos": rgba(255, 255, 255, 0.801),
+    "colorTres": rgb(255, 255, 255),
+    "colorCuatro": rgb(255, 166, 0),
+    "colorCinco": rgb(255, 255, 139),
+    "colorSeis": rgb(255, 84, 42),
+    "colorSiete": rgb(207, 48, 164),
+    "colorOcho": rgb(0, 0, 0)
+);
+
+$iconos : (
+    "wasap" : rgb(40, 209, 70),
+    "insta" : linear-gradient(to top right, rgb(254, 211, 114), rgb(248, 111, 47), rgb(212, 48, 137), rgb(158, 55, 184), rgb(95, 75, 198)),
+    "twiter" : rgb(29, 161, 242),
+    "discord" : rgb(135, 33, 230),
+);
+
+// font
+$fontPrincipal: 'Fuzzy Bubbles', 'Kanit', sans-serif, cursive;
+$textoRelleno: bolder;
+
+
+// tamaño
+$textoSm: 10px;
+$textoMd: 20px;
+$textoLg: 25px;
+$textoXl: 30px;
+$textoXxl: 40px;
+
+//bordes
+$bordeSm: 1px solid rgb(0, 0, 0);
+$bordeMd: 3px solid rgb(0, 0, 0);
+$borderLg: 5px double rgb(0, 0, 0);
+
+
+//sombra
+@mixin sombraCajas {
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.55);
+}
+
+@mixin sinSombras {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+// posicion
+@mixin posicion-relativa {
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+
+@mixin posicion-todo {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+
+// flex
+@mixin flex($display, $wrap, $justify) {
+    display: $display;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+}
+
+

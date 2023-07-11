@@ -1,0 +1,218 @@
+@media (max-width : 1700px) {
+    .c-img {
+        object-fit: scale-down;
+    }
+}
+
+@media (max-width : 1300px){
+    .caja-principal h1 {
+        font-size: $textoXl;
+    }
+    
+    p {
+        font-size: $textoMd;
+    }
+
+    .contenedor-grid-index{
+        align-items:start;
+    }
+
+    .caja2-index img {
+        height: 200px;
+    }
+
+
+    iframe {
+        width: 400px;
+    }
+
+    .contenedor-grid2-t1 {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .grid1-t1-izquierda {
+        padding: 0;
+        span {
+            display: block;
+            color: black;
+            margin-left: 20px;
+            letter-spacing: 0;
+            font-size: $textoLg;
+        }
+        ul li {
+            padding: 25px 0;
+            padding-left: 0;
+            a {
+                font-size: $textoMd;
+            }
+        }
+    }
+}
+
+@media (max-width : 1030px) {
+    .contenedor-grid-index {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "seccion1"
+        "seccion2"
+        "seccion3"
+        "seccion4";
+    }
+
+    .cont-global {
+        @include posicion-todo;
+        background-color: map-get($map: $colores, $key: "colorUno");
+    }
+
+    .caja-index {
+        @include sinSombras;
+    }    
+
+    .caja-comunidad {
+        @include sinSombras;
+        padding: $textoMd;
+    }
+
+    .formulario-comunidad {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .contenedor-grid2-t1 {
+        display: inline-block;
+    }
+
+    .grid1-t1-izquierda {
+        padding: 0;
+        span {
+            display: none;
+            margin: 0;
+        }
+        ul {
+            text-align: center;
+            li {
+                display: inline-block;
+                padding: 0;
+                justify-content: center;
+                a {
+                    padding: 20px;
+              }
+            } 
+        }
+    }
+}
+
+@media (max-width: 700px ) {
+    iframe {
+        width: 400px;
+    }
+
+    .cont-global {
+        @include posicion-todo;
+        background-color: map-get($map: $colores, $key: "colorUno");
+    }
+
+    .contenedor-grid-index {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "seccion1"
+        "seccion2"
+        "seccion3"
+        "seccion4";
+    }
+
+    .caja-index {
+        @include sinSombras;
+    }
+
+    .caja2-index img {
+        height: 250px;
+    }
+
+    .contenedor-flex-comunidad {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja-comunidad {
+        @include sinSombras;
+        width: 95%;
+    }
+}
+
+@media (max-width: 500px) {  
+    iframe {
+        width: 320px;
+    }
+    
+    .cont-global {
+        display: grid;
+        justify-content: center;
+        background-color: map-get($map: $colores, $key: "colorUno");
+    }
+
+    .caja-index p {
+        margin:0 $textoMd;
+    }
+
+    .caja2-index img {
+        height: 200px;
+    }
+
+    .caja-comunidad {
+        @include sinSombras;
+        width: 93%;
+    }
+
+    .formulario-comunidad {
+        width: 90%;
+    }
+
+    .contenedor-grid2-t1 {
+        display: inline-block;
+    }
+
+    .grid1-t1-izquierda {
+        padding: 0;
+        span {
+            display: none;
+            margin: 0;
+        }
+        ul {
+            text-align: center;
+            li {
+                display: inline-block;
+                padding: 0;
+                justify-content: center;
+                a {
+                    padding: 20px;
+              }
+            } 
+        }
+    }
+}
+
+@media(max-width : 370px) {
+    .cont-global {
+        @include posicion-todo;
+        background-color: map-get($map: $colores, $key: "colorUno");
+    }
+
+    .caja2-index img {
+        height: 150px;
+    }
+
+    .formulario-comunidad {
+        width: 100%;
+    }
+
+    .caja-comunidad {
+        width: 90%;
+    }
+
+    .icono {
+        font-size: 50px;
+    }
+}

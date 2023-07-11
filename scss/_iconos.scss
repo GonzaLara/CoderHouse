@@ -1,0 +1,44 @@
+.icono {
+    font-size: 80px;
+    margin: $textoXl;
+}
+
+@mixin iconitos {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.wasap {
+    color: map-get($map: $iconos, $key: "wasap");
+}
+
+.insta {
+    @include iconitos;
+    background-image: map-get($map: $iconos, $key: "insta");
+}
+
+.twit {
+    color: rgb(29, 161, 242);
+}
+
+.disco {
+    color: rgb(135, 33, 230);
+}
+
+.ingreso {
+    font-size: 28px;
+    width: 75px;
+}
+
+.izquierda {
+    font-size: $textoXl;
+    margin-right: $textoSm;
+    color: map-get($map: $colores, $key: "colorOcho");
+    padding-top: 6px;
+}
+
+.derecha {
+    float: right;
+    @extend .izquierda;
+}

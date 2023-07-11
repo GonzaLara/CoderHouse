@@ -1,0 +1,36 @@
+.contenedor-flex-temporadas {
+    @include flex(flex, wrap, space-between);
+}
+
+.caja-temporadas {
+    display: flex;
+    flex-basis: calc(33.33% - 5px);
+    justify-content: center;
+    margin: $textoXl 0;
+
+    h3 {
+        margin-top: 10px;
+        font-weight: $textoRelleno;
+    }
+    
+    a {
+        color: map-get($map: $colores, $key: "colorSeis");
+        display: inline-block; 
+        text-align: center;
+        text-decoration: none;
+    }
+
+    img {
+        border: $borderLg;
+        &:hover {
+            animation:vibrar 0.8s linear both;
+            @keyframes vibrar{
+                0%,100%{transform:translateX(0)}
+                10%,30%,50%,70%{transform:translateX(-10px)}
+                20%,40%,60%{transform:translateX(10px)}
+                80%{transform:translateX(8px)}
+                90%{transform:translateX(-8px)}
+            }
+        }
+    }
+}
