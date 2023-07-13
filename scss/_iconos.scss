@@ -3,12 +3,6 @@
     margin: $textoXl;
 }
 
-@mixin iconitos {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
 .wasap {
     color: map-get($map: $iconos, $key: "wasap");
 }
@@ -19,11 +13,11 @@
 }
 
 .twit {
-    color: rgb(29, 161, 242);
+    color: map-get($map: $iconos, $key: "twiter");
 }
 
 .disco {
-    color: rgb(135, 33, 230);
+    color: map-get($map: $iconos, $key: "discord");
 }
 
 .ingreso {

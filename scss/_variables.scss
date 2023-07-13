@@ -70,4 +70,27 @@ $borderLg: 5px double rgb(0, 0, 0);
     justify-content: $justify;
 }
 
+// grid
+@mixin grid {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
 
+// mas espacio entre el texto y titulo mas grande
+@mixin c-index-p {
+    text-align: center;
+    padding: 8px;
+}
+
+@mixin c-index-h2 {
+    font-size: $textoXl;
+    padding-top: 8px;
+}
+
+// iconos
+@mixin iconitos {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

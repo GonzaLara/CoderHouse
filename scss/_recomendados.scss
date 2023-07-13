@@ -27,7 +27,7 @@
     }
 
     h3 {
-        color: #CF30A4;
+        color: map-get($map: $colores, $key: "colorSiete");
         padding-top: 2em;
     }
 }

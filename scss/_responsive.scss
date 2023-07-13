@@ -1,10 +1,18 @@
 @media (max-width : 1700px) {
     .c-img {
-        object-fit: scale-down;
+        height: 300px;
     }
 }
 
 @media (max-width : 1300px){
+    .caja4-index {
+        height: 17em;
+    }
+
+    .c-img {
+        height: 13em;
+    }
+
     .caja-principal h1 {
         font-size: $textoXl;
     }
@@ -21,7 +29,6 @@
         height: 200px;
     }
 
-
     iframe {
         width: 400px;
     }
@@ -36,7 +43,7 @@
         span {
             display: block;
             color: black;
-            margin-left: 20px;
+            margin-left: $textoMd;
             letter-spacing: 0;
             font-size: $textoLg;
         }
@@ -69,6 +76,19 @@
         @include sinSombras;
     }    
 
+    .caja4-index {
+        width: 45%;
+        height: 17em;
+    }
+
+    .c-img {
+        height: 13em;
+    }
+
+    .caja-recomendaciones {
+        @include sinSombras;
+    }
+
     .caja-comunidad {
         @include sinSombras;
         padding: $textoMd;
@@ -76,6 +96,11 @@
 
     .formulario-comunidad {
         width: 100%;
+    }
+
+    .caja-t1 {
+        @include sinSombras;
+        padding: $textoMd $textoMd;
     }
 }
 
@@ -97,7 +122,7 @@
                 padding: 0;
                 justify-content: center;
                 a {
-                    padding: 20px;
+                    padding: $textoMd;
               }
             } 
         }
@@ -131,6 +156,14 @@
         height: 250px;
     }
 
+    .caja4-index {
+        height: 14em;
+    }
+
+    .c-img {
+        height: 10em;
+    }
+
     .contenedor-flex-comunidad {
         flex-direction: column;
         align-items: center;
@@ -161,6 +194,15 @@
         height: 200px;
     }
 
+    .caja4-index {
+        width: 70%;
+        height: 13em;
+    }
+
+    .c-img {
+        height: 9em;
+    }
+
     .caja-comunidad {
         @include sinSombras;
         width: 93%;
@@ -176,22 +218,10 @@
 
     .grid1-t1-izquierda {
         padding: 0;
-        span {
-            display: none;
-            margin: 0;
+        ul  li a {
+            font-size: 15px;
         }
-        ul {
-            text-align: center;
-            li {
-                display: inline-block;
-                padding: 0;
-                justify-content: center;
-                a {
-                    padding: 20px;
-              }
-            } 
-        }
-    }
+    }   
 }
 
 @media(max-width : 370px) {
@@ -204,6 +234,10 @@
         height: 150px;
     }
 
+    .caja4-index {
+        width: 80%;
+    }
+
     .formulario-comunidad {
         width: 100%;
     }
@@ -214,5 +248,14 @@
 
     .icono {
         font-size: 50px;
+    }
+
+    .grid1-t1-izquierda {
+    ul li {
+        padding: $textoSm 0;
+        a {
+            font-size: 13px;
+            }
+        }
     }
 }

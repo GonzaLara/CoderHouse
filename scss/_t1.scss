@@ -1,3 +1,4 @@
+// contenedor temporadas y capitulos
 .contenedor-grid2-t1 {
     display: grid;
     justify-items: start;
@@ -26,25 +27,24 @@
     }
 }
 
-// lateral izquierdo
+// posicion de las temporadas
 .grid1-t1-izquierda {
     padding: 0 15px;
     span {
         display: block;
         color: black;
-        margin: 10px 0;
+        margin: $textoSm 0;
         letter-spacing: 5px;
         font-size: 35px;
     }
     ul li {
-        padding: 20px 0;
-        padding-left: 10px;
+        padding: $textoMd 0;
+        padding-left: $textoSm;
         list-style: none;
         a {
             color: rgb(90, 90, 90);
             font-size: 1.5rem;
             text-decoration: none;
-            text-transform: lowercase;
             font-weight: bold;     
             &:hover {
                 color: map-get($map: $colores, $key: "colorOcho"); 
@@ -53,12 +53,12 @@
     }
 }
 
-// lateral derecho
+// posicion capitulos
 .caja-t1 {
     @include posicion-relativa;
     background-color: map-get($map: $colores, $key: "colorDos");
     text-align: center;
-    padding: 20px 50px;
+    padding: $textoMd 50px;
     @include sombraCajas;
     img {
         margin-bottom: $textoMd;
@@ -70,12 +70,15 @@
     margin-top: $textoMd;
 }
 
+// animacion zoom portada
 .zoom {
   transition: transform .2s;
   &:hover {
     transform: scale(1.1);
   }
 }
+
+// animacion resaltado
 .efecto {
     color: rgb(255, 0, 0);
     -webkit-animation: efecto 1s ease-in-out infinite alternate;

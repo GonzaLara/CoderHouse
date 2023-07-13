@@ -1,21 +1,3 @@
-@mixin grid {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-}
-
-// mas espacio entre el texto y titulo mas grande
-@mixin c-index-p {
-    text-align: center;
-    padding: 8px;
-}
-
-@mixin c-index-h2 {
-    font-size: $textoXl;
-    padding-top: 8px;
-}
-// 
-
 .contenedor-grid-index {
     @include grid;
     grid-template-columns: repeat(2, 1fr);
@@ -69,8 +51,8 @@
     background-color: map-get($map: $colores, $key: "colorDos");
     text-align: center;
     margin: $textoXl;
-    width: 70%;
-    height: 380px;
+    width: 80%;
+    height: 23em;
     @include sombraCajas;
     p {
         @include c-index-p;
