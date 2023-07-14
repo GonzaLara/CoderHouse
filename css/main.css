@@ -691,6 +691,16 @@ input {
     font-size: 15px;
   }
 }
+@media (max-width: 450px) {
+  .caja-recomendaciones img {
+    float: none;
+    margin: auto;
+    display: block;
+  }
+  .caja-recomendaciones h3 {
+    margin-top: -20px;
+  }
+}
 @media (max-width: 370px) {
   .cont-global {
     overflow: hidden;
