@@ -58,7 +58,7 @@
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .middle-bar {
@@ -603,8 +603,7 @@ input {
   }
   .grid1-t1-izquierda ul li {
     display: inline-block;
-    padding: 0;
-    justify-content: center;
+    margin-left: -2em;
   }
   .grid1-t1-izquierda ul li a {
     padding: 20px;
@@ -683,12 +682,6 @@ input {
   }
   .contenedor-grid2-t1 {
     display: inline-block;
-  }
-  .grid1-t1-izquierda {
-    padding: 0;
-  }
-  .grid1-t1-izquierda ul li a {
-    font-size: 15px;
   }
 }
 @media (max-width: 450px) {
