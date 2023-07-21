@@ -57,9 +57,7 @@ $borderLg: 5px double rgb(0, 0, 0);
 }
 
 @mixin posicion-todo {
-    overflow: hidden;
-    position: relative;
-    left: 0;
+    position: static;
     width: 100%;
 }
 

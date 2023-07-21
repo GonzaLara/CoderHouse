@@ -548,9 +548,7 @@ input {
     grid-template-areas: "seccion1" "seccion2" "seccion3" "seccion4";
   }
   .cont-global {
-    overflow: hidden;
-    position: relative;
-    left: 0;
+    position: static;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.479);
   }
@@ -614,10 +612,6 @@ input {
     width: 400px;
   }
   .cont-global {
-    overflow: hidden;
-    position: relative;
-    left: 0;
-    width: 100%;
     background-color: rgba(255, 255, 255, 0.479);
   }
   .contenedor-grid-index {
@@ -650,6 +644,10 @@ input {
   }
 }
 @media (max-width: 500px) {
+  p {
+    font-size: 18px;
+    line-height: 20px;
+  }
   iframe {
     width: 320px;
   }
@@ -658,8 +656,12 @@ input {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.479);
   }
+  .caja-index, .caja2-index, .caja3-index {
+    width: 100%;
+    margin: 10px 0;
+  }
   .caja-index p, .caja2-index p, .caja3-index p {
-    margin: 0 20px;
+    padding: 0;
   }
   .caja2-index img {
     height: 200px;
@@ -671,17 +673,27 @@ input {
   .c-img {
     height: 9em;
   }
+  .caja-recomendaciones {
+    position: static;
+    width: 100%;
+  }
   .caja-comunidad, .caja2-comunidad {
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    width: 93%;
+    position: static;
+    width: 100%;
+    margin: 10px 0;
   }
   .formulario-comunidad {
     width: 90%;
   }
   .contenedor-grid2-t1 {
     display: inline-block;
+  }
+  .caja-t1 {
+    position: static;
+    width: 100%;
   }
 }
 @media (max-width: 450px) {
@@ -695,13 +707,6 @@ input {
   }
 }
 @media (max-width: 370px) {
-  .cont-global {
-    overflow: hidden;
-    position: relative;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.479);
-  }
   .caja2-index img {
     height: 150px;
   }
@@ -710,9 +715,6 @@ input {
   }
   .formulario-comunidad {
     width: 100%;
-  }
-  .caja-comunidad, .caja2-comunidad {
-    width: 90%;
   }
   .icono {
     font-size: 50px;
