@@ -1,5 +1,8 @@
 ### Los Simpson 	:crown:
 
-Link del deployment: https://gonzalara.github.io/Pagina-Web-CH/
+Página creada por un fan de la serie para poder ver los capitulos clasicos sin tener que suscribirse a ningun servicio
+y sin publicidad.
 
-Link del repositorio: https://github.com/GonzaLara/Pagina-Web-CH.git
+Link de Pages: https://gonzalara.github.io/Pagina-Web-CH/ <br>
+Link del repositorio: https://github.com/GonzaLara/Pagina-Web-CH.git <br>
+Link del servidor: 
