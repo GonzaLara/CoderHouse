@@ -3,6 +3,10 @@
     margin: $textoXl;
 }
 
+.flechita {
+    font-size: 50px;
+}
+
 .wasap {
     color: map-get($map: $iconos, $key: "wasap");
 }

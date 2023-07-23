@@ -1,10 +1,25 @@
 @media (max-width : 1700px) {
+    // Imagen index
     .c-img {
         height: 300px;
     }
 }
 
 @media (max-width : 1300px){
+    // Global
+    p {
+        font-size: $textoMd;
+    }
+
+    .caja-principal h1 {
+        font-size: $textoXl;
+    }
+
+    // Seccion index
+    .contenedor-grid-index{
+        align-items:start;
+    }
+
     .caja4-index {
         height: 17em;
     }
@@ -13,26 +28,11 @@
         height: 13em;
     }
 
-    .caja-principal h1 {
-        font-size: $textoXl;
-    }
-    
-    p {
-        font-size: $textoMd;
-    }
-
-    .contenedor-grid-index{
-        align-items:start;
-    }
-
-    .caja2-index img {
-        height: 200px;
-    }
-
     iframe {
         width: 400px;
     }
 
+    // Seccion para cada temporada
     .contenedor-grid2-t1 {
         display: grid;
         grid-template-columns: 20% 80%;
@@ -58,37 +58,45 @@
 }
 
 @media (max-width : 1030px) {
-    .contenedor-grid-index {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "seccion1"
-        "seccion2"
-        "seccion3"
-        "seccion4";
-    }
-
     .cont-global {
         @include posicion-todo;
         background-color: map-get($map: $colores, $key: "colorUno");
     }
 
+    // Seccion index
+    .boton-arriba {
+        opacity: 0.5;
+        .arriba {
+            margin-right: 0;
+            bottom: 0;
+        }
+    }
+
     .caja-index {
         @include sinSombras;
+        margin: 8px;
+        width: 90%;
     }    
 
+    .caja3-index {
+        width: 90%;
+    }
+
     .caja4-index {
-        width: 45%;
-        height: 17em;
+        width: 90%;
+        height: 20em;
     }
 
     .c-img {
-        height: 13em;
+        height: 15em;
     }
 
+    // Seccion recomendaciones
     .caja-recomendaciones {
         @include sinSombras;
     }
 
+    // Seccion comunidad
     .caja-comunidad {
         @include sinSombras;
         padding: $textoMd;
@@ -98,6 +106,7 @@
         width: 100%;
     }
 
+    // Seccion para cada temporada
     .caja-t1 {
         @include sinSombras;
         padding: $textoMd $textoMd;
@@ -105,6 +114,32 @@
 }
 
 @media (max-width: 800px) {
+    // Seccion index
+        .contenedor-grid-index {
+        grid-template-columns: repeat(1fr);
+        grid-template-areas: 
+        "seccion1"
+        "seccion2"
+        "seccion5"
+        "seccion3"
+        "seccion4";
+    }
+
+    .caja-index {
+        width: 95%;
+        grid-column: 1 / span 2;
+    }
+
+    .caja3-index {
+        width: 70%;
+    }
+
+    .caja4-index {
+        width: 70%;
+        grid-column: 1 / span 2;
+    }
+
+    // Seccion para cada temporada
     .contenedor-grid2-t1 {
         display: inline-block;
     }
@@ -129,29 +164,17 @@
 }
 
 @media (max-width: 700px ) {
-    iframe {
-        width: 400px;
-    }
-
     .cont-global {
         background-color: map-get($map: $colores, $key: "colorUno");
     }
 
-    .contenedor-grid-index {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "seccion1"
-        "seccion2"
-        "seccion3"
-        "seccion4";
+    // Seccion index
+    .boton-arriba {
+        display: none;
     }
 
     .caja-index {
         @include sinSombras;
-    }
-
-    .caja2-index img {
-        height: 250px;
     }
 
     .caja4-index {
@@ -162,6 +185,11 @@
         height: 10em;
     }
 
+    iframe {
+        width: 400px;
+    }
+
+    // Seccion comunidad
     .contenedor-flex-comunidad {
         flex-direction: column;
         align-items: center;
@@ -173,47 +201,65 @@
     }
 }
 
+@media (max-width: 540px) {
+    .caja5-index {
+        table {
+            table-layout: fixed;
+            width: 100%;
+            td { 
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                word-wrap: break-word;
+            }
+        }
+    }
+}
+
 @media (max-width: 500px) {  
+    // Global
     p {
         font-size: 18px;
         line-height: $textoMd;
     }
 
-    iframe {
-        width: 320px;
-    }
-    
     .cont-global {
         display: grid;
         justify-content: center;
         background-color: map-get($map: $colores, $key: "colorUno");
     }
 
+    // Seccion index
     .caja-index {
         width: 100%;
         margin: $textoSm 0;
         p {
-            padding: 0;
+            padding: 0 1px;
         }
     }
 
     .caja2-index img {
-        height: 200px;
+        height: 100px;
     }
 
     .caja4-index {
-        width: 70%;
-        height: 13em;
+        width: 100%;
+        height: 15em;
     }
 
     .c-img {
-        height: 9em;
+        height: 11em;
     }
 
+    iframe {
+        width: 100%;
+    }
+
+    // Seccion recomendaciones
     .caja-recomendaciones {
         @include posicion-todo;
     }
 
+    // Seccion Comunidad
     .caja-comunidad {
         @include sinSombras;
         @include posicion-todo;
@@ -223,8 +269,8 @@
     .formulario-comunidad {
         width: 90%;
     }
-    // Seccion temporadas
 
+    // Seccion para cada temporada
     .contenedor-grid2-t1 {
         display: inline-block;
     }
@@ -234,7 +280,21 @@
     }
 }
 
+
 @media(max-width: 450px) {
+    // Seccion index
+    .caja5-index {
+        table {
+            th {
+                font-size: $textoSm;
+            }
+            td { 
+                font-size: $textoSm;
+            }
+        }
+    }
+
+    // Seccion recomendaciones
     .caja-recomendaciones {   
         img {
             float: none;
@@ -248,26 +308,21 @@
 }
 
 @media(max-width : 370px) {
-    .caja2-index img {
-        height: 150px;
-    }
-
+    // Seccion index
     .caja4-index {
         width: 80%;
     }
 
+    // Seccion comunidad
     .formulario-comunidad {
         width: 100%;
     }
-
-    // .caja-comunidad {
-    //     width: 90%;
-    // }
 
     .icono {
         font-size: 50px;
     }
 
+    // Seccion para cada temporada
     .grid1-t1-izquierda {
     ul li {
         padding: $textoSm 0;
