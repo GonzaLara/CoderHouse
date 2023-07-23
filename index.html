@@ -2,507 +2,584 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Imagenes/dona.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>SiempreSimpson</title>
-    <meta name="description" content="Tu sitio para ver Los Simpson online SIN publicidad">
-    <meta name="author" content="Gonzalo Lara">
-    <meta name="copyright" content="Design by Gonzalo Lara">
-    <meta name="robots" content="index,follow">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./Imagenes/dona.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>SiempreSimpson</title>
+  <meta name="description" content="Tu sitio para ver Los Simpson online SIN publicidad">
+  <meta name="author" content="Gonzalo Lara">
+  <meta name="copyright" content="Design by Gonzalo Lara">
+  <meta name="robots" content="index,follow">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light border-bottom border-dark" style="background-color: rgb(255, 255, 139)">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="Imagenes/logo.png" alt="logo simpsons">
-                </a>
-                <!-- boton para nav en celulares -->
-                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
-                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="toggler-icon top-bar"></span>
-                    <span class="toggler-icon middle-bar"></span>
-                    <span class="toggler-icon bottom-bar"></span>
-                </button>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom border-dark"
+      style="background-color: rgb(255, 255, 139)">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Imagenes/logo.png" alt="logo simpsons">
+        </a>
+        <!-- boton para nav en celulares -->
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+          data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
 
-                <!-- navbar -->
-                <div class="collapse navbar-collapse justify-content-end pt-3 pb-3 flex-md-row" id="main-nav">
-                    <ul class="navbar-nav justify-content-center flex-grow-1">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link fs-5">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="Paginas/temporadas.html" class="nav-link fs-5">Temporadas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="Paginas/recomendaciones.html" class="nav-link fs-5">Recomendaciones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="Paginas/comunidad.html" class="nav-link fs-5">Comunidad</a>
-                        </li>
-                    </ul>
-                    <!-- ingreso/registro -->
-                    <div class="float-end pt-2 d-md-grid">
-                        <a href="login" class="bordecito text-dark text-decoration-none px-3 py-2 rounded-4 mb-md-3"
-                            style="background-color: orange;">Ingresar</a>
-                        <a href="signup" class="bordecito text-dark text-decoration-none px-3 py-2 rounded-4"
-                            style="background-color: orange;">Registrarse</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <h1 class="caja-principal">Inicio</h1>
-
-
-    <main>
-        <section class="contenedor-grid-index cont-global">
-            <div class="caja-index">
-                <h2>Los Simpson</h2>
-                <p>"Los Simpson" es una exitosa serie de animación estadounidense que se ha convertido en un fenómeno
-                    cultural a nivel mundial. Fue creada por Matt Groening y se estrenó por primera vez el 17 de
-                    diciembre de 1989. La serie sigue las aventuras y desventuras de la familia Simpson, compuesta por
-                    Homero,
-                    Marge, Bart, Lisa y Maggie, junto con una amplia variedad de personajes secundarios que habitan en
-                    la
-                    ficticia ciudad de Springfield.</p>
-                <p>Desde su debut ,han sido emitidos 750 episodios por television a lo largo de 34 temporadas y
-                    contando, siendo la serie animada de comedia mas longeva en los Estados Unidos. </p>
-                <p>La serie recibio aclamacion universal en sus primeras temporadas en los años 1990s, siendo
-                    considerada esta su "epoca dorada". ha sido ampliamente elogiada por su humor inteligente, su
-                    capacidad para
-                    abordar temas complejos y su capacidad para conectarse con una amplia audiencia. Esta claro que la
-                    serie ha
-                    dejado una huella duradera en la cultura popular y ha seguido siendo un referente en la televisión
-                    durante décadas.</p>
-                <button class="boton-index">MAS INFO</button>
-            </div>
-
-            <div class="caja2-index">
-                <h2>La pagina</h2>
-                <p>En esta pagina podras encontrar informacion sobre la serie asi como tambien poder ver online las
-                    temporadas clasicas. Por ahora estan disponibles todos los capitulos de la temporada 1 hasta la
-                    temporada 12 en español(Latinoamericano).</p>
-                </p>
-                <p>Con el tiempo y apoyo que reciba la pagina se agregaran las temporadas faltantes hasta que en un
-                    futuro la
-                    serie pueda ser vista de inicio a fin. Tambien se planea agregar diversos idiomas y subtitulos para
-                    que pueda ser disfrutada por una amplia audiencia.</p>
-                <div>
-                    <img src="Imagenes/logo.png" alt="familia simpson">
-                </div>
-            </div>
-
-            <div class="caja5-index">
-                <h2>Personajes</h2>
-                <h3>Familia Simpson</h3>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Foto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Doblaje</th>
-                        <th scope="col">Descipcion</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/homero.png" alt="homero perfil"></th>
-                        <td>Homero Simpson</td>
-                        <td>Humberto Velez</td>
-                        <td class="columna">Es el padre de la familia Simpson y protagonista; tiene 38 años, es obeso, calvo y con poco sentido común, aunque ama a todos sus hijos, aun así, su relación con Bart muchas veces es temperamental y agresiva.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/marge.png" alt="marge perfil"></th>
-                        <td>Marge Bouvier</td>
-                        <td>Claudia Motta</td>
-                        <td>Es la madre de Bart, Lisa, Maggie y esposa de Homero, tiene 38 años. Es una madre abnegada, fanática del orden y la limpieza, en muchas ocasiones es la voz no atendida de la moderación y la razón aunque posee una actitud puritana y crítica que oscila entre la inocencia y el fanatismo intolerante. Siempre que se enfada hace un sonido similar a un "hrmmm</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/bart.png" alt="bart perfil"></th>
-                        <td>Bart Simpson</td>
-                        <td>Claudia Motta</td>
-                        <td>Es el hijo mayor, tiene 10 años de edad. Es travieso y a veces hiperactivo; muchas veces se mete en líos principalmente por tener ideas vandálicas o que se salen de control.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/lisa.png" alt="lisa perfil"></th>
-                        <td>Lisa Simpson</td>
-                        <td>Patricia Acevedo</td>
-                        <td>Es la hija del medio en la familia. Tiene 8 años, es muy madura para su edad, aunque también es egocéntrica y siempre quiere ser completamente perfecta; en muchas ocasiones ha sido criticada por ser la opinión que a nadie le interesa oír y por su idealismo desenfocado que la lleva a participar en movimientos y actividades de protesta donde lejos de solo protestar incluso intenta imponer su punto de vista obligatoriamente como sucedería cuando se hizo vegetariana.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/maggie.png" alt="maggie perfil"></th>
-                        <td>Maggie Simpson</td>
-                        <td class="doblaje">-</td>
-                        <td>Es la bebé y la menor de la familia. Tiene 2 años, y físicamente es la versión preescolar de Lisa. Tiene el cerebro de un constante infractor de la ley e incluso en varias ocasiones ha usado armas de fuego y agredido gente; a pesar de ello mantiene la inocencia y ternura de una bebé.</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <h3>Familia Flanders</h3>
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Foto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Doblaje</th>
-                        <th scope="col">Descipcion</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row" ><img src="Imagenes/ned.png" alt="ned perfil"></th>
-                        <td>Ned Flanders</td>
-                        <td>Óscar Gómez</td>
-                        <td>Es viudo de Maude, dejando solo y apenado a Ned. Tiene dos hijos fruto de dicho matrimonio, Rod y Todd. Es un cristiano devoto y sigue la Biblia estrictamente, tan literalmente como es posible y se conmociona fácilmente cuando ve puesto en duda cualquier punto de sus dogmas.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/maude.png" alt="maude perfil"></th>
-                        <td>Maude Flanders</td>
-                        <td class="doblaje">-</td>
-                        <td>Maude fue una mujer culta y refinada, de gran fe cristiana. Fue protectora con sus hijos y celosa de su marido. Muere tras caer cuatro metros en un insólito accidente con un cañón de camisetas en el episodio "Solo Nuevamentirijillo".</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/rod.png" alt="rod perfil"></th>
-                        <td>Rod Flanders</td>
-                        <td>Yetzary Olcor</td>
-                        <td>Hijo mayor criado en un hogar sumamente cristiano, por lo tanto su actitudes no es la del común de los chicos.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/todd.png" alt="todd perfil"></th>
-                        <td>Todd Flanders</td>
-                        <td>Sam Domínguez</td>
-                        <td>Hijo menor criado en un hogar sumamente cristiano, por lo tanto su actitudes no es la del común de los chicos.</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <h3>Planta nuclear de Springfield</h3>
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Foto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Doblaje</th>
-                        <th scope="col">Descipcion</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/burns.png" alt="burns perfil"></th>
-                        <td>Charles Montgomery Burns</td>
-                        <td>Gabriel Chávez Aguirre</td>
-                        <td>Es el propietario de la Planta de energía nuclear de Springfield y por tanto jefe de Homero. Es atendido casi todo el tiempo por Waylon Smithers, su leal y adulador ayudante, asesor, confidente y admirador secreto. Es el ciudadano más rico, poderoso y anciano de Springfield.</td>
-                      </tr>
-                      <tr>                        <th scope="row"><img src="Imagenes/smithers.png" alt="smithers perfil"></th>
-                        <td>Waylon Smithers</td>
-                        <td>Octavio Rojas</td>
-                        <td>Es el fiel ayudante ejecutivo de Montgomery Burns. Su atuendo habitual está compuesto por una chaqueta verde, camisa blanca, pantalones azules y zapatos negros. Su padre, Waylon Smithers Senior, trabajó para Burns hasta que murió de intoxicación por la radiación después de salvar a la planta de energía nuclear de Springfield de una posible fusión nuclear.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/smithers_sr.png" alt="smithers padre perfil"></th>
-                        <td>Waylon Smithers Sr</td>
-                        <td>Octavio Rojas</td>
-                        <td>Exasistente ejecutivo de Burns y padre de Waylon Smithers Jr. Fallecido al evitar un desastre en la planta. Sus restos fueron encontrados por Homero en una alcantarilla.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/homero.png" alt="homero perfil"></th>
-                        <td>Homero Simpson</td>
-                        <td>Humberto Velez</td>
-                        <td>Homero trabaja de 9 de la mañana a 5 de la tarde en la planta de energía nuclear de Springfield, en el sector 7-G, como inspector de seguridad. En las temporadas más recientes se le ha retratado con más frecuencia intentando triunfar en otros empleos, por lo que últimamente su asistencia a su puesto en la central nuclear se ha convertido en un gag recurrente. El resto del día lo invierte o bien con sus amigos o bien con su familia.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/lenny.png" alt="lenny perfil"></th>
-                        <td>Lenny Leonard</td>
-                        <td>Víctor Delgado</td>
-                        <td>Lenny es uno de los personajes más recurrentes de la serie, apareciendo en muchos episodios, es compañero de Homero en la planta de energía nuclear. Es abiertamente budista, veterano de guerra y junto a Carl orientaron a Lisa en su iniciación en dicha religión.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/carl.png" alt="carl perfil"></th>
-                        <td>Carl Carlson</td>
-                        <td>Carlos Luyando</td>
-                        <td>Carl es budista con un máster académico en física nuclear, fanático de los bolos. Se ha indicado en algunas ocasiones que tiene familia y que es el supervisor de Homero, pero generalmente mantiene las cosas para sí mismo.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/grimes.png" alt="grimes perfil"></th>
-                        <td>Frank Grimes</td>
-                        <td>Carlos Becerril</td>
-                        <td>Antiguo empleado de la central y enemigo declarado de Homero ya que detestaba que tuviese una mejor vida que él a pesar de ser irresponsable y holgazán. Falleció electrocutado en un ataque de locura cuando ridiculizaba "la forma de trabajar" de Homero.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/margo.png" alt="margo perfil"></th>
-                        <td>Margo Zavala</td>
-                        <td>Rebeca Patiño</td>
-                        <td>Una joven y atractiva empleada de la planta. Apareció en la quinta temporada en el episodio "La ultima tentacion de Homero" y en algunos episodios después jugó bolos contra el equipo de Homero; ambos demostraron desde el primer momento una intensa química y costumbres en común que provocaron una seria crisis personal en Homero, quien, con gran esfuerzo finalmente decidió ser fiel a Marge. En capítulos posteriores Homero explica que se volvio alcoholica y perdió su trabajo.</td>
-                      </tr>
-                        <th scope="row"><img src="Imagenes/barra.png" alt="barra perfil"></th>
-                        <td>Inerte barra de carbon</td>
-                        <td class="doblaje">-</td>
-                        <td>Salvo a Homero y los demas tripulantes que fueron al espacio en el episodio "Homero en el espacio profundo" cerrando la escotilla de la nave. Fue condecorada con un desfile en su honor y un programa que transmite su biografia.</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <h3>La taberna de Moe</h3>
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Foto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Doblaje</th>
-                        <th scope="col">Descipcion</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row" ><img src="Imagenes/moe.png" alt="moe perfil"></th>
-                        <td>Moe Szyslak</td>
-                        <td>Jorge Ornelas</td>
-                        <td>Moe es el propietario y único barman de la Taberna de Moe, donde su trabajo se limita a servir cerveza Duff a la escasa clientela. Allí es donde, desde el principio, ha sido el blanco de las bromas telefónicas de Bart. En varias ocasiones ha intentado reformar la Taberna de Moe, pero tanto "El restaurante familiar del tío Moe" como el innovador "M", han fracasado.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/lenny.png" alt="lenny perfil"></th>
-                        <td>Lenny Leonard</td>
-                        <td>Víctor Delgado</td>
-                        <td>Se lo ve frecuentemente en el bar de Moe. Su mejor amigo es Carl, siempre se los ve juntos, y en varios episodios se dejó a entrever que hay algo entre ellos, pero nunca se confirmó. Tiene otros grandes amigos, principalmente Homero, Moe y Barney.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/carl.png" alt="carl perfil"></th>
-                        <td>Carl Carlson</td>
-                        <td>Carlos Luyando</td>
-                        <td>Se lo ve frecuentemente en el bar de Moe y su mejor amigo es Lenny. Carl está casado, algo que se sabe debido a que en una ocasión iba a regalarle a su esposa un anillo de Superbowl para su aniversario.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/barney.png" alt="barney perfil"></th>
-                        <td>Barney Gómez</td>
-                        <td>Bardo Miranda</td>
-                        <td>Es el alcohólico de Springfield y uno de los mejores amigos de Homero. Decidió dejar de beber en el capítulo  "Días de vino y rosas", y se mantuvo sobrio durante varias temporadas. Barney eructa en forma casi continua, producto de su alta ingesta de cerveza.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/sam.png" alt="sam perfil"></th>
-                        <td>Sam</td>
-                        <td class="doblaje">-</td>
-                        <td>Es un cliente regular en la taberna, aunque no cumple ningún papel importante en la serie. El es un camionero,se dedica al transporte de mercancías frigorificas por carretera.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/larry.png" alt="larry perfil"></th>
-                        <td>Larry</td>
-                        <td class="doblaje">-</td>
-                        <td>Se lo ve principalmente en el fondo de la taberna, generalmente bebiendo cerveza. Aparece frecuentemente junto a Sam. Se sabe muy poco sobre su vida, a pesar de sus múltiples apariciones. </td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <h3>Escuela primaria de Springfield</h3>
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Foto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Doblaje</th>
-                        <th scope="col">Descipcion</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/skinner.png" alt="skinner perfil"></th>
-                        <td>Seymour Skinner</td>
-                        <td>Roberto Mendiola</td>
-                        <td>Es el director de la Escuela Primaria de Springfield, a la que asisten Bart y Lisa, y es un exveterano, que sirvió durante la guerra de Vietnam. Tiene muchos problemas para ejercer el control en su escuela y está en constante batalla con los pocos recursos de su institución, profesores apáticos y engreídos, y a menudo estudiantes bulliciosos y poco entusiasmados, con Bart Simpson como el mejor ejemplo.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/chalmers.png" alt="chalmers perfil"></th>
-                        <td>Superintendente Gary Chalmers</td>
-                        <td>Santos Alberto</td>
-                        <td>Su trabajo es el de supervisar la escuela de Springfield haciendo cuantiosas inspecciones a lo largo del curso. Es quien le pone calificación a la escuela para ver si recibiría subsidios o no. Es muy intolerante y exigente con el director Skinner, produciéndole mucha ansiedad y nerviosismo.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/edna.png" alt="edna perfil"></th>
-                        <td>Edna Krabappel</td>
-                        <td>-</td>
-                        <td>Fue la profesora de cuarto grado, caracterizada por su desgano para enseñar. Durante varias temporadas fue novia de Seymour Skinner, aunque fuera del ámbito escolar ha sido catalogada varias veces como "zorra", o promiscua (en un episodio, se menciona que casi todos los hombres de la ciudad han salido con ella). Tuvo una relación temporal con Ned Flanders, con quien terminó casándose en la temporada 22. El personaje desapareció de la serie tras la temporada 25, luego de la muerte de su actriz original Marcia Wallace.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/hoover.png" alt="hoover perfil"></th>
-                        <td>Elizabeth Hoover</td>
-                        <td>Mariana Ortiz</td>
-                        <td>Es la profesora de segundo grado. Tiene una actitud muy tranquila, no suele enojarse por nada y al igual que Edna Krabappel, tiene desgano para enseñar. Durante una protesta escolar le robaron su libro guía de clase y se demuestra que no posee mucho conocimiento, ya que depende por completo del libro. Es alcoholica.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/otto.png" alt="otto perfil"></th>
-                        <td>Otto Mann</td>
-                        <td>Tommy Rojas</td>
-                        <td>Conductor del autobús escolar. Hijo de un almirante de marina. Es drogadicto y amante del heavy metal.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/willie.png" alt="willie perfil"></th>
-                        <td>Jardinero Willie</td>
-                        <td>Alejandro Villeli</td>
-                        <td>Jardinero escocés. Es el único de su familia en Escocia. Vive en una casilla en el fondo de la Escuela Primaria de Springfield.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/dewey.png" alt="dewey perfil"></th>
-                        <td>Dewey Largo</td>
-                        <td>Esteban Desco</td>
-                        <td>Es el profesor de música de la escuela, calificado como poco creativo. Se sabe que es homosexual.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/doris.png" alt="doris perfil"></th>
-                        <td>Cocinera Doris</td>
-                        <td>Alejandra de la Rosa</td>
-                        <td>Aunque es cocinera, también se la vio trabajando como enfermera. También se caracteriza por servir comidas insípidas, algo extrañas y con la fecha de caducidad vencida.</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <h3>Niños de Springfield</h3>
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Foto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Doblaje</th>
-                        <th scope="col">Descipcion</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/milhouse.png" alt="milhouse perfil"></th>
-                        <td>Milhouse Van Houten</td>
-                        <td>Gisela Casillas</td>
-                        <td>Es el mejor amigo de Bart, aunque es tratado como un perdedor por el. Se caracteriza por ser una de las víctimas más comunes de los abusadores y por estar enamorado de Lisa.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/nelson.png" alt="nelson perfil"></th>
-                        <td>Nelson Muntz</td>
-                        <td>Marc Winslow</td>
-                        <td>Uno de los bravucones de la escuela conocido por su caracteristica risa al ver el sufrimiento de otros ¡Ja, ja!. Vive con su madre y es muy pobre. Su padre los abandono luego de decir que iria a la tienda por cigarrillos.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/rafa.png" alt="rafa perfil"></th>
-                        <td>Rafa Gorgory</td>
-                        <td>Cony Madera</td>
-                        <td>Es considerado por muchos como psicológicamente anormal, aunque es usualmente visto jugando con otros niños en el fondo y participa en las desaventuras de Bart y Lisa de vez en cuando</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/martin.png" alt="martin perfil"></th>
-                        <td>Martin Prince</td>
-                        <td>Alicia Vélez</td>
-                        <td>Es el consentido del profesor, académicamente brillante, con el entusiasmo típico de un superdotado. Es básicamente el nerd de la clase y un objetivo perfecto para los abusadores en la Escuela Primaria de Springfield.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/jimbo.png" alt="jimbo perfil"></th>
-                        <td>Jimbo Jones</td>
-                        <td>Rafa Pacheco</td>
-                        <td>Es uno de los amigos de Nelson. Tiene 14 años aproximadamente, usa un gorro y una camiseta negra con un cráneo en ella. Disfruta torturando a compañeros más débiles y robando.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/kearney.png" alt="kearney perfil"></th>
-                        <td>Kearney Zzyzwicz</td>
-                        <td>Eduardo Ménez</td>
-                        <td>Bravucon de 26 años. Está divorciado y tiene un hijo igual a él. Es el estudiante más viejo de la Primaria de Springfield.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/dolph.png" alt="dolph perfil"></th>
-                        <td>Dolph Starbeam</td>
-                        <td>Humberto Vélez Jr.</td>
-                        <td>Es parte de la banda de bravucones de Jimbo Jones (junto con Kearney y Nelson Muntz). Dolph es reconocible por su corte de cabello asimétrico que cubre un ojo y usa zapatos de basketball.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/shauna.png" alt="shauna perfil"></th>
-                        <td>Shauna Chalmers</td>
-                        <td>Andrea Orozco</td>
-                        <td>Es una chica de 14 años quien gusta mucho a todos los miembros de la pandilla de Jimbo, además de haber sido novia de Bart Simpson.</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/sherri_terri.png" alt="serri terri perfil"></th>
-                        <td>Sherri y Terri</td>
-                        <td>Cony Madera/Alicia Vélez</td>
-                        <td>Son gemelas con largo cabello púrpura. Están en la misma clase que Bart en la Escuela Primaria de Springfield. </td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="Imagenes/sophie.png" alt="sophie perfil"></th>
-                        <td>Sophie Krustofsky</td>
-                        <td>Cassandra Valtier</td>
-                        <td>Es la hija de Krusty el payaso.</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <h4>Solo te mostramos los personajes mas recurrentes de la serie, hay muchos mas. Podes verlos <a href="">acá</a>.</h4>
-            </div>
-
-            <div class="caja3-index">
-                <h2>Intro</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yk_tA9_fqoE"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </div>
-
-
-            <div class="caja4-index">
-                <h2>Imagenes</h2>
-                <div id="miCarousel" class="carousel slide" data-bs-theme="dark">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="Imagenes/imagenes_varias1.png" class="d-block w-100 c-img" alt="...">
-                        </div>
-                        <div class="carousel-item c-item">
-                            <img src="Imagenes/familia.png" class="d-block w-100 c-img" alt="...">
-                        </div>
-                        <div class="carousel-item c-item">
-                            <img src="Imagenes/imagenes_varias3.png" class="d-block w-100 c-img" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#miCarousel"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#miCarousel"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <div class="boton-arriba">
-          <a href="#" class="arriba"><i class="fa-solid fa-circle-chevron-up flechita"></i></a>
+        <!-- navbar -->
+        <div class="collapse navbar-collapse justify-content-end pt-3 pb-3 flex-md-row" id="main-nav">
+          <ul class="navbar-nav justify-content-center flex-grow-1">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fs-5">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="Paginas/temporadas.html" class="nav-link fs-5">Temporadas</a>
+            </li>
+            <li class="nav-item">
+              <a href="Paginas/recomendaciones.html" class="nav-link fs-5">Recomendaciones</a>
+            </li>
+            <li class="nav-item">
+              <a href="Paginas/comunidad.html" class="nav-link fs-5">Comunidad</a>
+            </li>
+          </ul>
+          <!-- ingreso/registro -->
+          <div class="float-end pt-2 d-md-grid">
+            <a href="error.html" class="bordecito text-dark text-decoration-none px-3 py-2 rounded-4 mb-md-3"
+              style="background-color: orange;">Ingresar</a>
+            <a href="error.html" class="bordecito text-dark text-decoration-none px-3 py-2 rounded-4"
+              style="background-color: orange;">Registrarse</a>
+          </div>
         </div>
-    </main>
+      </div>
+    </nav>
+  </header>
 
-    <div class="caja-final">
-        <a href="Paginas/temporadas.html"><i class="fa-solid fa-circle-right derecha"></i></a>
+  <h1 class="caja-principal">Inicio</h1>
+
+  <main>
+    <section class="contenedor-grid-index cont-global">
+      <div class="caja-index">
+        <h2>Los Simpson</h2>
+        <p>"Los Simpson" es una exitosa serie de animación estadounidense que se ha convertido en un fenómeno
+          cultural a nivel mundial. Fue creada por Matt Groening y se estrenó por primera vez el 17 de
+          diciembre de 1989. La serie sigue las aventuras y desventuras de la familia Simpson, compuesta por
+          Homero,
+          Marge, Bart, Lisa y Maggie, junto con una amplia variedad de personajes secundarios que habitan en
+          la
+          ficticia ciudad de Springfield.</p>
+        <p>Desde su debut ,han sido emitidos 750 episodios por television a lo largo de 34 temporadas y
+          contando, siendo la serie animada de comedia mas longeva en los Estados Unidos. </p>
+        <p>La serie recibio aclamacion universal en sus primeras temporadas en los años 1990s, siendo
+          considerada esta su "epoca dorada". ha sido ampliamente elogiada por su humor inteligente, su
+          capacidad para
+          abordar temas complejos y su capacidad para conectarse con una amplia audiencia. Esta claro que la
+          serie ha
+          dejado una huella duradera en la cultura popular y ha seguido siendo un referente en la televisión
+          durante décadas.</p>
+        <button class="boton-index">MAS INFO</button>
+      </div>
+
+      <div class="caja2-index">
+        <h2>La pagina</h2>
+        <p>En esta pagina podras encontrar informacion sobre la serie asi como tambien poder ver online las
+          temporadas clasicas. Por ahora estan disponibles todos los capitulos de la temporada 1 hasta la
+          temporada 12 en español(Latinoamericano).</p>
+        </p>
+        <p>Con el tiempo y apoyo que reciba la pagina se agregaran las temporadas faltantes hasta que en un
+          futuro la
+          serie pueda ser vista de inicio a fin. Tambien se planea agregar diversos idiomas y subtitulos para
+          que pueda ser disfrutada por una amplia audiencia.</p>
+        <div>
+          <img src="Imagenes/logo.png" alt="familia simpson">
+        </div>
+      </div>
+
+      <div class="caja5-index">
+        <h2>Personajes</h2>
+        <h3>Familia Simpson</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Foto</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Doblaje</th>
+              <th scope="col">Descipcion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><img src="Imagenes/homero.png" alt="homero perfil"></th>
+              <td>Homero Simpson</td>
+              <td>Humberto Velez</td>
+              <td class="columna">Es el padre de la familia Simpson y protagonista; tiene 38 años, es obeso, calvo y con
+                poco sentido común, aunque ama a todos sus hijos, aun así, su relación con Bart muchas veces es
+                temperamental y agresiva.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/marge.png" alt="marge perfil"></th>
+              <td>Marge Bouvier</td>
+              <td>Claudia Motta</td>
+              <td>Es la madre de Bart, Lisa, Maggie y esposa de Homero, tiene 38 años. Es una madre abnegada, fanática
+                del orden y la limpieza, en muchas ocasiones es la voz no atendida de la moderación y la razón aunque
+                posee una actitud puritana y crítica que oscila entre la inocencia y el fanatismo intolerante. Siempre
+                que se enfada hace un sonido similar a un "hrmmm</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/bart.png" alt="bart perfil"></th>
+              <td>Bart Simpson</td>
+              <td>Claudia Motta</td>
+              <td>Es el hijo mayor, tiene 10 años de edad. Es travieso y a veces hiperactivo; muchas veces se mete en
+                líos principalmente por tener ideas vandálicas o que se salen de control.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/lisa.png" alt="lisa perfil"></th>
+              <td>Lisa Simpson</td>
+              <td>Patricia Acevedo</td>
+              <td>Es la hija del medio en la familia. Tiene 8 años, es muy madura para su edad, aunque también es
+                egocéntrica y siempre quiere ser completamente perfecta; en muchas ocasiones ha sido criticada por ser
+                la opinión que a nadie le interesa oír y por su idealismo desenfocado que la lleva a participar en
+                movimientos y actividades de protesta donde lejos de solo protestar incluso intenta imponer su punto de
+                vista obligatoriamente como sucedería cuando se hizo vegetariana.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/maggie.png" alt="maggie perfil"></th>
+              <td>Maggie Simpson</td>
+              <td class="doblaje">-</td>
+              <td>Es la bebé y la menor de la familia. Tiene 2 años, y físicamente es la versión preescolar de Lisa.
+                Tiene el cerebro de un constante infractor de la ley e incluso en varias ocasiones ha usado armas de
+                fuego y agredido gente; a pesar de ello mantiene la inocencia y ternura de una bebé.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Familia Flanders</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Foto</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Doblaje</th>
+              <th scope="col">Descipcion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><img src="Imagenes/ned.png" alt="ned perfil"></th>
+              <td>Ned Flanders</td>
+              <td>Óscar Gómez</td>
+              <td>Es viudo de Maude, dejando solo y apenado a Ned. Tiene dos hijos fruto de dicho matrimonio, Rod y
+                Todd. Es un cristiano devoto y sigue la Biblia estrictamente, tan literalmente como es posible y se
+                conmociona fácilmente cuando ve puesto en duda cualquier punto de sus dogmas.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/maude.png" alt="maude perfil"></th>
+              <td>Maude Flanders</td>
+              <td class="doblaje">-</td>
+              <td>Maude fue una mujer culta y refinada, de gran fe cristiana. Fue protectora con sus hijos y celosa de
+                su marido. Muere tras caer cuatro metros en un insólito accidente con un cañón de camisetas en el
+                episodio "Solo Nuevamentirijillo".</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/rod.png" alt="rod perfil"></th>
+              <td>Rod Flanders</td>
+              <td>Yetzary Olcor</td>
+              <td>Hijo mayor criado en un hogar sumamente cristiano, por lo tanto su actitudes no es la del común de los
+                chicos.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/todd.png" alt="todd perfil"></th>
+              <td>Todd Flanders</td>
+              <td>Sam Domínguez</td>
+              <td>Hijo menor criado en un hogar sumamente cristiano, por lo tanto su actitudes no es la del común de los
+                chicos.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Planta nuclear de Springfield</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Foto</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Doblaje</th>
+              <th scope="col">Descipcion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><img src="Imagenes/burns.png" alt="burns perfil"></th>
+              <td>Charles Montgomery Burns</td>
+              <td>Gabriel Chávez Aguirre</td>
+              <td>Es el propietario de la Planta de energía nuclear de Springfield y por tanto jefe de Homero. Es
+                atendido casi todo el tiempo por Waylon Smithers, su leal y adulador ayudante, asesor, confidente y
+                admirador secreto. Es el ciudadano más rico, poderoso y anciano de Springfield.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/smithers.png" alt="smithers perfil"></th>
+              <td>Waylon Smithers</td>
+              <td>Octavio Rojas</td>
+              <td>Es el fiel ayudante ejecutivo de Montgomery Burns. Su atuendo habitual está compuesto por una chaqueta
+                verde, camisa blanca, pantalones azules y zapatos negros. Su padre, Waylon Smithers Senior, trabajó para
+                Burns hasta que murió de intoxicación por la radiación después de salvar a la planta de energía nuclear
+                de Springfield de una posible fusión nuclear.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/smithers_sr.png" alt="smithers padre perfil"></th>
+              <td>Waylon Smithers Sr</td>
+              <td>Octavio Rojas</td>
+              <td>Exasistente ejecutivo de Burns y padre de Waylon Smithers Jr. Fallecido al evitar un desastre en la
+                planta. Sus restos fueron encontrados por Homero en una alcantarilla.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/homero.png" alt="homero perfil"></th>
+              <td>Homero Simpson</td>
+              <td>Humberto Velez</td>
+              <td>Homero trabaja de 9 de la mañana a 5 de la tarde en la planta de energía nuclear de Springfield, en el
+                sector 7-G, como inspector de seguridad. En las temporadas más recientes se le ha retratado con más
+                frecuencia intentando triunfar en otros empleos. El resto del día lo invierte con sus
+                amigos o con su familia.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/lenny.png" alt="lenny perfil"></th>
+              <td>Lenny Leonard</td>
+              <td>Víctor Delgado</td>
+              <td>Lenny es uno de los personajes más recurrentes de la serie, apareciendo en muchos episodios, es
+                compañero de Homero en la planta de energía nuclear. Es abiertamente budista, veterano de guerra y junto
+                a Carl orientaron a Lisa en su iniciación en dicha religión.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/carl.png" alt="carl perfil"></th>
+              <td>Carl Carlson</td>
+              <td>Carlos Luyando</td>
+              <td>Carl es budista con un máster académico en física nuclear, fanático de los bolos. Se ha indicado en
+                algunas ocasiones que tiene familia y que es el supervisor de Homero, pero generalmente mantiene las
+                cosas para sí mismo.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/grimes.png" alt="grimes perfil"></th>
+              <td>Frank Grimes</td>
+              <td>Carlos Becerril</td>
+              <td>Antiguo empleado de la central y enemigo declarado de Homero ya que detestaba que tuviese una mejor
+                vida que él a pesar de ser irresponsable y holgazán. Falleció electrocutado en un ataque de locura
+                cuando ridiculizaba "la forma de trabajar" de Homero.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/margo.png" alt="margo perfil"></th>
+              <td>Margo Zavala</td>
+              <td>Rebeca Patiño</td>
+              <td>Una joven y atractiva empleada de la planta. Apareció en la quinta temporada en el episodio "La ultima
+                tentacion de Homero" y en algunos episodios después jugó bolos contra el equipo de Homero; ambos
+                demostraron desde el primer momento una intensa química y costumbres en común que provocaron una seria
+                crisis personal en Homero, quien, con gran esfuerzo finalmente decidió ser fiel a Marge. En capítulos
+                posteriores Homero explica que se volvio alcoholica y perdió su trabajo.</td>
+            </tr>
+            <th scope="row"><img src="Imagenes/barra.png" alt="barra perfil"></th>
+            <td>Inerte barra de carbon</td>
+            <td class="doblaje">-</td>
+            <td>Salvo a Homero y los demas tripulantes que fueron al espacio en el episodio "Homero en el espacio
+              profundo" cerrando la escotilla de la nave. Fue condecorada con un desfile en su honor y un programa que
+              transmite su biografia.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>La taberna de Moe</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Foto</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Doblaje</th>
+              <th scope="col">Descipcion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><img src="Imagenes/moe.png" alt="moe perfil"></th>
+              <td>Moe Szyslak</td>
+              <td>Jorge Ornelas</td>
+              <td>Moe es el propietario y único barman de la Taberna de Moe, donde su trabajo se limita a servir cerveza
+                Duff a la escasa clientela. Allí es donde, desde el principio, ha sido el blanco de las bromas
+                telefónicas de Bart. En varias ocasiones ha intentado reformar la Taberna de Moe, pero tanto "El
+                restaurante familiar del tío Moe" como el innovador "M", han fracasado.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/lenny.png" alt="lenny perfil"></th>
+              <td>Lenny Leonard</td>
+              <td>Víctor Delgado</td>
+              <td>Se lo ve frecuentemente en el bar de Moe. Su mejor amigo es Carl, siempre se los ve juntos, y en
+                varios episodios se dejó a entrever que hay algo entre ellos, pero nunca se confirmó. Tiene otros
+                grandes amigos, principalmente Homero, Moe y Barney.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/carl.png" alt="carl perfil"></th>
+              <td>Carl Carlson</td>
+              <td>Carlos Luyando</td>
+              <td>Se lo ve frecuentemente en el bar de Moe y su mejor amigo es Lenny. Carl está casado, algo que se sabe
+                debido a que en una ocasión iba a regalarle a su esposa un anillo de Superbowl para su aniversario.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/barney.png" alt="barney perfil"></th>
+              <td>Barney Gómez</td>
+              <td>Bardo Miranda</td>
+              <td>Es el alcohólico de Springfield y uno de los mejores amigos de Homero. Decidió dejar de beber en el
+                capítulo "Días de vino y rosas", y se mantuvo sobrio durante varias temporadas. Barney eructa en forma
+                casi continua, producto de su alta ingesta de cerveza.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/sam.png" alt="sam perfil"></th>
+              <td>Sam</td>
+              <td class="doblaje">-</td>
+              <td>Es un cliente regular en la taberna, aunque no cumple ningún papel importante en la serie. El es un
+                camionero,se dedica al transporte de mercancías frigorificas por carretera.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/larry.png" alt="larry perfil"></th>
+              <td>Larry</td>
+              <td class="doblaje">-</td>
+              <td>Se lo ve principalmente en el fondo de la taberna, generalmente bebiendo cerveza. Aparece
+                frecuentemente junto a Sam. Se sabe muy poco sobre su vida, a pesar de sus múltiples apariciones. </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Escuela primaria de Springfield</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Foto</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Doblaje</th>
+              <th scope="col">Descipcion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><img src="Imagenes/skinner.png" alt="skinner perfil"></th>
+              <td>Seymour Skinner</td>
+              <td>Roberto Mendiola</td>
+              <td>Es el director de la Escuela Primaria de Springfield, a la que asisten Bart y Lisa, y es un
+                exveterano, que sirvió durante la guerra de Vietnam. Tiene muchos problemas para ejercer el control en
+                su escuela y está en constante batalla con los pocos recursos de su institución, profesores apáticos y
+                engreídos, y a menudo estudiantes bulliciosos y poco entusiasmados, con Bart Simpson como el mejor
+                ejemplo.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/chalmers.png" alt="chalmers perfil"></th>
+              <td>Superintendente Gary Chalmers</td>
+              <td>Santos Alberto</td>
+              <td>Su trabajo es el de supervisar la escuela de Springfield haciendo cuantiosas inspecciones a lo largo
+                del curso. Es quien le pone calificación a la escuela para ver si recibiría subsidios o no. Es muy
+                intolerante y exigente con el director Skinner, produciéndole mucha ansiedad y nerviosismo.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/edna.png" alt="edna perfil"></th>
+              <td>Edna Krabappel</td>
+              <td>-</td>
+              <td>Fue la profesora de cuarto grado, caracterizada por su desgano para enseñar. Durante varias temporadas
+                fue novia de Seymour Skinner, aunque fuera del ámbito escolar ha sido catalogada varias veces como
+                "zorra", o promiscua (en un episodio, se menciona que casi todos los hombres de la ciudad han salido con
+                ella). Tuvo una relación temporal con Ned Flanders, con quien terminó casándose en la temporada 22. El
+                personaje desapareció de la serie tras la temporada 25, luego de la muerte de su actriz original Marcia
+                Wallace.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/hoover.png" alt="hoover perfil"></th>
+              <td>Elizabeth Hoover</td>
+              <td>Mariana Ortiz</td>
+              <td>Es la profesora de segundo grado. Tiene una actitud muy tranquila, no suele enojarse por nada y al
+                igual que Edna Krabappel, tiene desgano para enseñar. Durante una protesta escolar le robaron su libro
+                guía de clase y se demuestra que no posee mucho conocimiento, ya que depende por completo del libro. Es
+                alcoholica.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/otto.png" alt="otto perfil"></th>
+              <td>Otto Mann</td>
+              <td>Tommy Rojas</td>
+              <td>Conductor del autobús escolar. Hijo de un almirante de marina. Es drogadicto y amante del heavy metal.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/willie.png" alt="willie perfil"></th>
+              <td>Jardinero Willie</td>
+              <td>Alejandro Villeli</td>
+              <td>Jardinero escocés. Es el único de su familia en Escocia. Vive en una casilla en el fondo de la Escuela
+                Primaria de Springfield.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/dewey.png" alt="dewey perfil"></th>
+              <td>Dewey Largo</td>
+              <td>Esteban Desco</td>
+              <td>Es el profesor de música de la escuela, calificado como poco creativo. Se sabe que es homosexual.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/doris.png" alt="doris perfil"></th>
+              <td>Cocinera Doris</td>
+              <td>Alejandra de la Rosa</td>
+              <td>Aunque es cocinera, también se la vio trabajando como enfermera. También se caracteriza por servir
+                comidas insípidas, algo extrañas y con la fecha de caducidad vencida.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Niños de Springfield</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Foto</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Doblaje</th>
+              <th scope="col">Descipcion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><img src="Imagenes/milhouse.png" alt="milhouse perfil"></th>
+              <td>Milhouse Van Houten</td>
+              <td>Gisela Casillas</td>
+              <td>Es el mejor amigo de Bart, aunque es tratado como un perdedor por el. Se caracteriza por ser una de
+                las víctimas más comunes de los abusadores y por estar enamorado de Lisa.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/nelson.png" alt="nelson perfil"></th>
+              <td>Nelson Muntz</td>
+              <td>Marc Winslow</td>
+              <td>Uno de los bravucones de la escuela conocido por su caracteristica risa al ver el sufrimiento de otros
+                ¡Ja, ja!. Vive con su madre y es muy pobre. Su padre los abandono luego de decir que iria a la tienda
+                por cigarrillos.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/rafa.png" alt="rafa perfil"></th>
+              <td>Rafa Gorgory</td>
+              <td>Cony Madera</td>
+              <td>Es considerado por muchos como psicológicamente anormal, aunque es usualmente visto jugando con otros
+                niños en el fondo y participa en las desaventuras de Bart y Lisa de vez en cuando</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/martin.png" alt="martin perfil"></th>
+              <td>Martin Prince</td>
+              <td>Alicia Vélez</td>
+              <td>Es el consentido del profesor, académicamente brillante, con el entusiasmo típico de un superdotado.
+                Es básicamente el nerd de la clase y un objetivo perfecto para los abusadores en la Escuela Primaria de
+                Springfield.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/jimbo.png" alt="jimbo perfil"></th>
+              <td>Jimbo Jones</td>
+              <td>Rafa Pacheco</td>
+              <td>Es uno de los amigos de Nelson. Tiene 14 años aproximadamente, usa un gorro y una camiseta negra con
+                un cráneo en ella. Disfruta torturando a compañeros más débiles y robando.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/kearney.png" alt="kearney perfil"></th>
+              <td>Kearney Zzyzwicz</td>
+              <td>Eduardo Ménez</td>
+              <td>Bravucon de 26 años. Está divorciado y tiene un hijo igual a él. Es el estudiante más viejo de la
+                Primaria de Springfield.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/dolph.png" alt="dolph perfil"></th>
+              <td>Dolph Starbeam</td>
+              <td>Humberto Vélez Jr.</td>
+              <td>Es parte de la banda de bravucones de Jimbo Jones (junto con Kearney y Nelson Muntz). Dolph es
+                reconocible por su corte de cabello asimétrico que cubre un ojo y usa zapatos de basketball.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/shauna.png" alt="shauna perfil"></th>
+              <td>Shauna Chalmers</td>
+              <td>Andrea Orozco</td>
+              <td>Es una chica de 14 años quien gusta mucho a todos los miembros de la pandilla de Jimbo, además de
+                haber sido novia de Bart Simpson.</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/sherri_terri.png" alt="serri terri perfil"></th>
+              <td>Sherri y Terri</td>
+              <td>Cony Madera/Alicia Vélez</td>
+              <td>Son gemelas con largo cabello púrpura. Están en la misma clase que Bart en la Escuela Primaria de
+                Springfield. </td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="Imagenes/sophie.png" alt="sophie perfil"></th>
+              <td>Sophie Krustofsky</td>
+              <td>Cassandra Valtier</td>
+              <td>Es la hija de Krusty el payaso.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Solo te mostramos los personajes mas recurrentes de la serie, hay muchos mas. Podes verlos <a
+            href="error.html">acá</a>.</h4>
+      </div>
+
+      <div class="caja3-index">
+        <h2>Intro</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yk_tA9_fqoE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+
+
+      <div class="caja4-index">
+        <h2>Imagenes</h2>
+        <div id="miCarousel" class="carousel slide" data-bs-theme="dark">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#miCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Imagenes/imagenes_varias1.png" class="d-block w-100 c-img" alt="...">
+            </div>
+            <div class="carousel-item c-item">
+              <img src="Imagenes/familia.png" class="d-block w-100 c-img" alt="...">
+            </div>
+            <div class="carousel-item c-item">
+              <img src="Imagenes/imagenes_varias3.png" class="d-block w-100 c-img" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#miCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#miCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="boton-arriba">
+      <a href="#" class="arriba"><i class="fa-solid fa-circle-chevron-up flechita"></i></a>
     </div>
+  </main>
 
-    <footer>
-        <div class="pie">
-            <p>&copy 2023 SiempreSimpson. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+  <div class="caja-final">
+    <a href="Paginas/temporadas.html"><i class="fa-solid fa-circle-right derecha"></i></a>
+  </div>
+
+  <footer>
+    <div class="pie">
+      <p>&copy 2023 SiempreSimpson. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
