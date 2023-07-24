@@ -692,7 +692,7 @@ input {
     padding: 20px 20px;
   }
   .palabra {
-    font-size: 25px;
+    font-size: 3.2vw;
   }
 }
 @media (max-width: 800px) {
@@ -741,6 +741,9 @@ input {
   .grid1-t1-izquierda ul li a {
     padding: 20px;
   }
+  .palabra {
+    font-size: 4vw;
+  }
 }
 @media (max-width: 700px) {
   .cont-global {
@@ -772,9 +775,6 @@ input {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     width: 95%;
-  }
-  .palabra {
-    font-size: 19px;
   }
 }
 @media (max-width: 540px) {
@@ -846,9 +846,6 @@ input {
   .caja-t1 {
     position: static;
     width: 100%;
-  }
-  .palabra {
-    font-size: 11px;
   }
 }
 @media (max-width: 450px) {

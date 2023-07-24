@@ -124,7 +124,7 @@
     }
 
     .palabra {
-        font-size: 25px;
+        font-size: 3.2vw;
     }
 }
 
@@ -191,6 +191,10 @@
             } 
         }
     }
+        
+    .palabra {
+        font-size: 4vw;
+    }
 }
 
 @media (max-width: 700px ) {
@@ -229,11 +233,6 @@
     .caja-comunidad {
         @include sinSombras;
         width: 95%;
-    }
-
-    // Seccion para cada temporada
-    .palabra {
-        font-size: 19px;
     }
 }
 
@@ -324,10 +323,6 @@
 
     .caja-t1 {
         @include posicion-todo;
-    }
-
-    .palabra {
-        font-size: 11px;
     }
 }
 
