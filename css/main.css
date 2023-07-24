@@ -691,6 +691,9 @@ input {
     -moz-box-shadow: none;
     padding: 20px 20px;
   }
+  .palabra {
+    font-size: 25px;
+  }
 }
 @media (max-width: 800px) {
   .contenedor-grid-index {
@@ -770,6 +773,9 @@ input {
     -moz-box-shadow: none;
     width: 95%;
   }
+  .palabra {
+    font-size: 19px;
+  }
 }
 @media (max-width: 540px) {
   .caja5-index table {
@@ -840,6 +846,9 @@ input {
   .caja-t1 {
     position: static;
     width: 100%;
+  }
+  .palabra {
+    font-size: 11px;
   }
 }
 @media (max-width: 450px) {
