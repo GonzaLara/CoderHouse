@@ -6,7 +6,8 @@ body {
     background-position: center;
     height: 100vh;
     font-weight: bold;
-    overflow: scroll;
+    // overflow: scroll;
+    overflow-x: hidden;
 }
 
 p {

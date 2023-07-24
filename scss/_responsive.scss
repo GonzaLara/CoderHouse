@@ -115,7 +115,7 @@
 
 @media (max-width: 800px) {
     // Seccion index
-        .contenedor-grid-index {
+    .contenedor-grid-index {
         grid-template-columns: repeat(1fr);
         grid-template-areas: 
         "seccion1"
@@ -137,6 +137,15 @@
     .caja4-index {
         width: 70%;
         grid-column: 1 / span 2;
+    }
+
+    .caja5-index {
+        h3 {
+            margin-left: 0;
+        }
+        table {
+            overflow-x: hidden;
+        }
     }
 
     // Seccion para cada temporada
@@ -202,6 +211,7 @@
 }
 
 @media (max-width: 540px) {
+    // Seccion index
     .caja5-index {
         table {
             table-layout: fixed;
@@ -213,6 +223,11 @@
             }
         }
     }
+
+    // Seccion error 404
+    .cont-img {
+        background-position: right 45% top 0%;
+    } 
 }
 
 @media (max-width: 500px) {  

@@ -89,7 +89,7 @@ body {
   background-position: center;
   height: 100vh;
   font-weight: bold;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 
 p {
@@ -227,13 +227,13 @@ h1 {
   position: static;
   width: 100%;
   margin-left: 3em;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .caja5-index h4 a {
   text-decoration: none;
 }
 .caja5-index table {
-  border: 3px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
   width: 95%;
 }
 
@@ -583,7 +583,7 @@ input {
   transition: all 0.5s;
   transform: translate(-50%, -50%);
 }
-.cont-img a.botoncillo:hover {
+.cont-img a.botoncillo a.botoncillo:hover {
   border-color: rgb(255, 255, 255);
 }
 
@@ -700,6 +700,12 @@ input {
     width: 70%;
     grid-column: 1/span 2;
   }
+  .caja5-index h3, .caja5-index h4 {
+    margin-left: 0;
+  }
+  .caja5-index table {
+    overflow-x: hidden;
+  }
   .contenedor-grid2-t1 {
     display: inline-block;
   }
@@ -762,6 +768,9 @@ input {
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
+  }
+  .cont-img {
+    background-position: right 45% top 0%;
   }
 }
 @media (max-width: 500px) {
